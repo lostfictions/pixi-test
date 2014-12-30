@@ -1,0 +1,10 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"file_exclude_patterns": [".gitignore", "LICENSE"],
+            "folder_exclude_patterns": ["public"]
+		}
+	]
+}

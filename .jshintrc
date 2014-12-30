@@ -1,0 +1,28 @@
+{
+  // Enforcing:
+  "maxerr": 50,
+  "bitwise": true,
+  "camelcase": true,
+  "curly": true,
+  "eqeqeq": true,
+  "forin": true,
+  "freeze": true,
+  "immed": true,
+  "indent": 2,
+  "newcap": true,
+  "noarg": true,
+  "noempty": true,
+  "nonbsp": true,
+  "nonew": true,
+  "undef": true,
+  "unused": true,
+
+  // JSHint doesn't have any way of indicating 'implicit strict
+  // mode' (transpiler-enforced or otherwise) when using ES6.
+  // So I guess we'll leave this false for now.
+  "strict": false,
+
+  // Relaxing:
+  "esnext": true,
+  "browserify": true
+}
